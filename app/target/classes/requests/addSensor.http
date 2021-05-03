@@ -1,0 +1,9 @@
+POST http://localhost:8080/sensors
+Content-Type: application/json
+
+{"name": "Bartosz Wyciszkiewicz", "address":"a b, c d, e"}
+
+###
+PUT http://localhost:8080/sensors/6e76705d-239f-4881-9d33-bdbbed5e1504
+Content-Type: application/json
+{"name": "Agata Zwolak", "address":"a b, c d, e"}
